@@ -1,2 +1,15 @@
-# AIML-INTERNSHIP-20Days-PROJECTS
-AI/ML internship projects as part of Sparkout Technologies training program, covering Python, Machine Learning, Generative AI, and AI application development. 
+# Student Management System
+
+## Features
+- Add Student
+- View Students
+- Search Student
+- Update Student
+- Delete Student
+
+## Concepts Used
+- Functions
+- Modules
+- Lists
+- Dictionaries
+- CRUD Operations
