@@ -1,59 +1,50 @@
-# Day 5 - Machine Learning and Data Preprocessing
+# Day 6 - Linear Regression
 
 # Objective
 
-Learn Machine Learning basics and perform data preprocessing using Python.
-
-# Topics Covered
-
-# Types of Machine Learning
-
-# Supervised Learning
-
-Examples:
-
-* Email Spam Detection
-* House Price Prediction
-
-# Unsupervised Learning
-
-Examples:
-
-* Customer Segmentation
-* Market Basket Analysis
-
-# Reinforcement Learning
-
-Examples:
-
-* Self Driving Cars
-* Game Playing AI
+Train a Linear Regression model and evaluate its performance using MAE, MSE, and R² Score.
 
 # Dataset
 
+Housing Price Dataset
+
 Columns:
 
-* Name
-* Age
-* Salary
-* Department
+* Area
+* Bedrooms
+* Price
 
-Names Used:
+# Steps Performed
 
-* Arun
-* Sindu
-* Ramya
-* Rithika
-* Durga
-* Janani
+1. Loaded dataset using Pandas
+2. Split data into training and testing sets
+3. Trained a Linear Regression model
+4. Generated predictions
+5. Interpreted coefficients
+6. Calculated MAE, MSE, and R² Score
 
-# Data Preprocessing Steps
+# Coefficient Interpretation
 
-1. Load Dataset using Pandas
-2. Handle Missing Values using fillna()
-3. Encode Categorical Data using LabelEncoder
-4. Scale Features using StandardScaler
-5. Split Data using train_test_split()
+* Area Coefficient:
+  Increase in area leads to an increase in house price.
+
+* Bedrooms Coefficient:
+  Increase in bedrooms affects house price positively.
+
+# Evaluation Metrics
+
+# MAE (Mean Absolute Error)
+
+Average prediction error.
+
+# MSE (Mean Squared Error)
+
+Squared average error.
+
+# R² Score
+
+Measures how well the model explains the data.
+Higher value indicates better performance.
 
 # Technologies Used
 
@@ -64,4 +55,4 @@ Names Used:
 
 # Outcome
 
-Successfully cleaned the dataset by handling missing values, encoding categorical variables, scaling features, and splitting data into training and testing sets.
+Successfully built and evaluated a Linear Regression model for house price prediction.
