@@ -1,23 +1,27 @@
-# Day 7 - Logistic Regression Classification
+# Day 8 - Decision Tree and Random Forest
 
 # Objective
-Train a Logistic Regression model for binary classification and evaluate it using:
 
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- Confusion Matrix
-- ROC-AUC
+Train a Decision Tree Classifier and compare its performance with a Random Forest Classifier.
+
+# Tasks Completed
+
+- Train a Decision Tree Classifier
+- Visualize the Decision Tree
+- Train a Random Forest Classifier
+- Compare model accuracies
 
 # Dataset
+
 Breast Cancer Dataset from Scikit-Learn
 
 # Libraries Used
+
 - Scikit-Learn
 - NumPy
 - Pandas
+- Matplotlib
 
 # Run
 
-python day7.py
+python day8.py
