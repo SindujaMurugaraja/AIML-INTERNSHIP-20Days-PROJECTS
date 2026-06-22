@@ -1,58 +1,23 @@
-# Day 6 - Linear Regression
+# Day 7 - Logistic Regression Classification
 
 # Objective
+Train a Logistic Regression model for binary classification and evaluate it using:
 
-Train a Linear Regression model and evaluate its performance using MAE, MSE, and R² Score.
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
+- ROC-AUC
 
 # Dataset
+Breast Cancer Dataset from Scikit-Learn
 
-Housing Price Dataset
+# Libraries Used
+- Scikit-Learn
+- NumPy
+- Pandas
 
-Columns:
+# Run
 
-* Area
-* Bedrooms
-* Price
-
-# Steps Performed
-
-1. Loaded dataset using Pandas
-2. Split data into training and testing sets
-3. Trained a Linear Regression model
-4. Generated predictions
-5. Interpreted coefficients
-6. Calculated MAE, MSE, and R² Score
-
-# Coefficient Interpretation
-
-* Area Coefficient:
-  Increase in area leads to an increase in house price.
-
-* Bedrooms Coefficient:
-  Increase in bedrooms affects house price positively.
-
-# Evaluation Metrics
-
-# MAE (Mean Absolute Error)
-
-Average prediction error.
-
-# MSE (Mean Squared Error)
-
-Squared average error.
-
-# R² Score
-
-Measures how well the model explains the data.
-Higher value indicates better performance.
-
-# Technologies Used
-
-* Python
-* Pandas
-* Scikit-Learn
-* VS Code
-
-# Outcome
-
-Successfully built and evaluated a Linear Regression model for house price prediction.
+python day7.py
