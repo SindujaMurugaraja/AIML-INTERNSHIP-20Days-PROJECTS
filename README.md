@@ -1,27 +1,54 @@
-# Day 8 - Decision Tree and Random Forest
+# Day 9 - Student Performance Prediction
 
 # Objective
 
-Train a Decision Tree Classifier and compare its performance with a Random Forest Classifier.
+Build an end-to-end Machine Learning pipeline for predicting student performance.
 
 # Tasks Completed
 
-- Train a Decision Tree Classifier
-- Visualize the Decision Tree
-- Train a Random Forest Classifier
-- Compare model accuracies
+* Data preprocessing
+* Train/Test split
+* Train multiple machine learning models
+* Compare model performances
+* Automatically select the best model
+* Save the trained model using joblib
+
+# Models Used
+
+* Logistic Regression
+* Decision Tree Classifier
+* Random Forest Classifier
 
 # Dataset
 
-Breast Cancer Dataset from Scikit-Learn
+Custom Student Performance Dataset
+
+Features:
+
+* Study Hours
+* Attendance Percentage
+* Assignments Completed
+* Previous Marks
+
+Target:
+
+* Final Result (Pass/Fail)
 
 # Libraries Used
 
-- Scikit-Learn
-- NumPy
-- Pandas
-- Matplotlib
+* Scikit-Learn
+* Pandas
+* NumPy
+* Joblib
 
 # Run
 
-python day8.py
+```bash
+python student_performance_prediction.py
+```
+
+# Output
+
+* Trained Model Artifact (`student_performance_model.pkl`)
+* Model Comparison Report
+* Best Model Selection Result
