@@ -1,54 +1,47 @@
-# Day 9 - Student Performance Prediction
+# Day 10 - LLM Introduction and Prompt Engineering
 
-# Objective
+## Objective
 
-Build an end-to-end Machine Learning pipeline for predicting student performance.
+Learn the fundamentals of Large Language Models and Prompt Engineering using LangChain.
 
-# Tasks Completed
+## Topics Covered
 
-* Data preprocessing
-* Train/Test split
-* Train multiple machine learning models
-* Compare model performances
-* Automatically select the best model
-* Save the trained model using joblib
+* Tokens
+* Context Window
+* Closed-source vs Open-source Models
+* Prompt Engineering Techniques
 
-# Models Used
+## Tasks Completed
 
-* Logistic Regression
-* Decision Tree Classifier
-* Random Forest Classifier
+* Configure an LLM using LangChain
+* Create reusable prompts using PromptTemplate
+* Experiment with Zero-shot prompting
+* Experiment with Few-shot prompting
+* Experiment with Chain-of-Thought prompting
 
-# Dataset
+## Technologies Used
 
-Custom Student Performance Dataset
+* LangChain
+* OpenAI API
+* Python
+* PromptTemplate
 
-Features:
+## Prompting Techniques
 
-* Study Hours
-* Attendance Percentage
-* Assignments Completed
-* Previous Marks
+### Zero-shot Prompting
 
-Target:
+Provide instructions without examples.
 
-* Final Result (Pass/Fail)
+### Few-shot Prompting
 
-# Libraries Used
+Provide examples before asking the model to answer.
 
-* Scikit-Learn
-* Pandas
-* NumPy
-* Joblib
+### Chain-of-Thought Prompting
 
-# Run
+Encourage the model to explain reasoning step-by-step.
+
+## Run
 
 ```bash
-python student_performance_prediction.py
+python app.py
 ```
-
-# Output
-
-* Trained Model Artifact (`student_performance_model.pkl`)
-* Model Comparison Report
-* Best Model Selection Result
